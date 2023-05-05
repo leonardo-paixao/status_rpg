@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Status dos personagens</title>
+    <style>
+      body {
+		background-image: url('https://ordemparanormal.com.br/wp-content/uploads/2021/07/op-logo.png');
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+		background-color: #0f0f0f;
+		overflow: hidden;
+		justify-content: center;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 100vh;
+      }
+      .cell {
+        position: relative;
+      }
+      .iframe-wrapper {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+      }
+      .iframe-wrapper iframe {
+        width: 2200px;
+        height: 1250px;
+        border: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="cell">
+        <div class="iframe-wrapper">
+          <iframe src="https://fichasop.com/sessao/personagem/portrait/osnf_metal/?token=44426eab-e7a0-11ed-a1b4-0d0c133bf003"></iframe>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="iframe-wrapper">
+          <iframe src="https://fichasop.com/sessao/personagem/portrait/osnf_metal/?token=b9312576-ea88-11ed-a1b4-0d0c133bf003"></iframe>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="iframe-wrapper">
+          <iframe src="https://fichasop.com/sessao/personagem/portrait/osnf_metal/?token=6beb40d6-ea8a-11ed-a1b4-0d0c133bf003"></iframe>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="iframe-wrapper">
+          <iframe src="https://fichasop.com/sessao/personagem/portrait/osnf_metal/?token=44426eab-e7a0-11ed-a1b4-0d0c133bf003"></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
